@@ -1,0 +1,16 @@
+{
+  "name": "Chrome History Purger",
+  "version": "1.0",
+  "icons": {"16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "manifest_version": 2,
+  "description": "Purge old browse history with given weeks",
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "history"
+  ]
+}

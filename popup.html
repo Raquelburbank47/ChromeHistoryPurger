@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        width:300px;
+        height:100px;
+        overflow-x:hidden;
+        font-family:'Arial';
+      }
+
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <p id="title" class="title">Purge history older than then given week</p>
+    <div id="inputs">
+    <form id="weekform" action="#">
+		<input type="text" size="2" id="week" /> 
+		<input type="submit" value="Purge"/>
+    </form>
+    </div>
+  </body>
+</html>
